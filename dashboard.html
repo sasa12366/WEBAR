@@ -9,7 +9,7 @@
 <body>
     <div class="sidebar">
         <div class="user-info">
-            <img src="images/user-avatar.png" alt="Аватар пользователя" class="avatar">
+            <img src="images/user.png" alt="User Avatar" class="avatar">
             <div class="user-details">
                 <p>Александр</p>
                 <p>ovsyannikov48@mail.ru</p>
@@ -44,5 +44,11 @@
             </tbody>
         </table>
     </div>
+
+    <script>
+        document.querySelector('.logout-button').addEventListener('click', function() {
+            window.location.href = "login.html";
+        });
+    </script>
 </body>
 </html>
